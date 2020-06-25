@@ -1,0 +1,46 @@
+.droite
+{
+	flex: 2;
+	background-color: white;
+	border: solid 1px black;
+
+
+}
+.gauche
+{
+	flex: 1;
+	background-color:rgba(129,212,250,0.7);
+	border: solid 1px black;
+
+}
+body
+{
+
+	font-family: arial,helvetica,sans-serif;
+	display: flex;
+
+}
+.gauche, h3 p
+{
+	text-align: center;
+}
+.droite ,.nom .metier h3
+{
+	text-align:left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.icondroit
+{
+	color: rgba(129,212,250,0.7);
+}
+.nom
+{
+	font-family: italic,arial ,sans-serif;
+	font-size: 40px;
+	color: grey
+}
+.ligne
+{
+	border-bottom: 2px solid rgba(129,212,250,0.7);
+}
