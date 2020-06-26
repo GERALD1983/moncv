@@ -24,6 +24,14 @@ body
 {
 	text-align: center;
 }
+.CAT
+{
+	background-color: grey;
+	color: rgba(129,212,250,0.7);
+	height: 25px;
+	padding-top: 2.5%;
+
+}
 .droite ,.nom .metier h3
 {
 	text-align:left;
