@@ -3,7 +3,7 @@
 	flex: 2;
 	background-color: white;
 	border: solid 1px black;
-	height: 1300px;
+	height: 1320px;
 
 }
 .gauche
@@ -11,7 +11,7 @@
 	flex: 1;
 	background-color:rgba(129,212,250,0.7);
 	border: solid 1px black;
-	height: 1300px;
+	height: 1320px;
 	
 
 }
@@ -47,6 +47,15 @@ img
 	text-align: justify;
 	height: 510px;
 }
+#bordureicon
+{
+	border-radius: 50%;
+	border: 1px solid black;
+	padding: 7px 7px 7px 7px;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+
 .CAT
 {
 	background-color: grey;
