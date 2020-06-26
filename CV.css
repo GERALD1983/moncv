@@ -12,6 +12,7 @@
 	background-color:rgba(129,212,250,0.7);
 	border: solid 1px black;
 	height: 1300px;
+	
 
 }
 body
@@ -25,12 +26,34 @@ body
 {
 	text-align: center;
 }
+.gauche p
+{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+img
+{
+  border-radius :50%;
+  border:3px solid rgba(129,212,250 ,1);
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+.contact
+{
+	text-align: left;
+}
+.propos
+{
+	text-align: justify;
+	height: 510px;
+}
 .CAT
 {
 	background-color: grey;
 	color: rgba(129,212,250,0.7);
 	height: 25px;
 	padding-top: 2.5%;
+	padding-bottom: 2.5%;
 
 }
 .droite ,.nom .metier h3
