@@ -65,23 +65,56 @@ img
 	padding-bottom: 2.5%;
 
 }
-.droite ,.nom .metier h3
+.droite
 {
 	text-align:left;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-left: 50px;
+	padding-right: 50px;
 }
 .icondroit
 {
 	color: rgba(129,212,250,0.7);
+	font-size: 1.5em;
+	margin-right: 20px
+}
+.me
+{
+	
+	padding-top: 65px;
+
 }
 .nom
 {
-	font-family: italic,arial ,sans-serif;
-	font-size: 40px;
-	color: grey
+
+	font-family: Times New Roman, sans-serif;
+	font-size: 3.7em;
+	color: grey;
+	margin-left: 2%
 }
-.ligne
+.prenom
+{
+	font-size: 3.5em;
+	font-family: Arial,sans-serif;
+	color: rgba(129,212,250,0.7);
+}
+.metier
+{
+	font-size: 1.5em;
+	color: grey;
+	font-weight: bold;
+	margin-top: -10px;
+	margin-bottom: 100px;
+}
+.tiret
 {
 	border-bottom: 2px solid rgba(129,212,250,0.7);
+}
+.lignecat
+{
+	border-bottom: 2px solid rgba(129,212,250,0.7);
+}
+.exp
+{
+	line-height: 40px;
+	vertical-align: top;
 }
