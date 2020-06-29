@@ -3,7 +3,8 @@
 	flex: 2;
 	background-color: white;
 	border: solid 1px black;
-	height: 1320px;
+	height: 1480px;
+
 
 }
 .gauche
@@ -11,7 +12,8 @@
 	flex: 1;
 	background-color:rgba(129,212,250,0.7);
 	border: solid 1px black;
-	height: 1320px;
+	height: 1480px;
+	
 	
 
 }
@@ -20,6 +22,9 @@ body
 
 	font-family: arial,helvetica,sans-serif;
 	display: flex;
+	width: 1050px;
+	
+
 
 }
 .gauche, h3 p
@@ -45,7 +50,7 @@ img
 .propos
 {
 	text-align: justify;
-	height: 510px;
+	height: 670px;
 }
 #bordureicon
 {
@@ -117,4 +122,50 @@ img
 {
 	line-height: 40px;
 	vertical-align: top;
+}
+ul
+{
+	display: flex;
+
+}
+li
+{
+	color: rgba(129,212,250,1);
+	
+
+}
+ul li span
+{
+	color: initial;
+}
+.entete li
+{
+	list-style-type: none;
+	
+}
+.entete i
+{
+	
+	margin-left: -24px;
+	padding-top: 10px;
+	padding-right: 5px;
+	color: rgba(129,212,250,1);
+}
+
+
+.bulle
+{
+	flex: 1;
+	margin-top: 10px;
+	
+}
+.texte
+{
+	flex: 2;
+
+}
+.foot
+{
+	display: flex;
+	justify-content: space-around;
 }
