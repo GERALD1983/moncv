@@ -23,13 +23,15 @@ body
 	font-family: arial,helvetica,sans-serif;
 	display: flex;
 	width: 1050px;
+	margin: auto;
 	
 
 
 }
-.gauche, h3 p
+.gauche, h2 p
 {
 	text-align: center;
+	color: grey;
 }
 .gauche p
 {
@@ -46,17 +48,26 @@ img
 .contact
 {
 	text-align: left;
+	font-weight: bold;
 }
 .propos
 {
 	text-align: justify;
 	height: 670px;
 }
-#bordureicon
+#bordureiconbord
 {
 	border-radius: 50%;
-	border: 1px solid black;
-	padding: 7px 7px 7px 7px;
+	border: 1px solid grey;
+	padding: 7px 5px 7px 5px;
+	margin-left: 3%;
+	margin-right: 3%;
+}
+#bordureiconcentre
+{
+	border-radius: 50%;
+	border: 1px solid grey;
+	padding: 7px 9px 7px 9px;
 	margin-left: 3%;
 	margin-right: 3%;
 }
@@ -126,17 +137,25 @@ img
 ul
 {
 	display: flex;
+	color: grey;
 
 }
 li
 {
 	color: rgba(129,212,250,1);
+
 	
 
 }
 ul li span
 {
-	color: initial;
+	color: grey;
+	font-weight: bold;
+	font-size: 0.9em;
+}
+.societe
+{
+	font-weight: bold;
 }
 .entete li
 {
@@ -168,4 +187,72 @@ ul li span
 {
 	display: flex;
 	justify-content: space-around;
+	color: grey;
+	font-size: 0.9em;
 }
+.footG
+{
+	margin-left: -95px;
+}
+.gras
+{
+	font-weight: bold;
+}
+
+/*regle responsive media queries*/
+
+@media screen and (max-width: 1050px)
+{
+	body
+	{
+		display: flex;
+		flex-direction: column-reverse;
+		justify-content: center;
+		align-items: center;
+		width: auto;
+
+	}
+
+	.gauche
+	{
+	background-color:rgba(129,212,250,0.7);
+	border: solid 1px black;
+	flex: none;
+	border: none;
+	height: 1250px;
+
+	}
+
+	.droite
+	{
+	background-color: white;
+	border: solid 1px black;
+	flex: none;
+	height: 1600px;
+	border: none;
+
+	}
+	.propos
+	{
+		height: 300px;
+	}
+	.foot
+	{
+	
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		
+	}
+	.footG
+	{
+		margin-left : 0px;
+	}
+	.photo
+	{
+		height: 250px;
+	}
+	img
+	{
+		margin-top: 5%;
+	}
