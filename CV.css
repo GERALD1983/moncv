@@ -2,8 +2,10 @@
 {
 	flex: 2;
 	background-color: white;
-	border: solid 1px black;
-	height: 1480px;
+	height: 1450px;
+	text-align:left;
+	padding-left: 50px;
+	padding-right: 50px;
 
 
 }
@@ -11,8 +13,7 @@
 {
 	flex: 1;
 	background-color:rgba(129,212,250,0.7);
-	border: solid 1px black;
-	height: 1480px;
+	height: 1450px;
 	
 	
 
@@ -24,6 +25,7 @@ body
 	display: flex;
 	width: 1050px;
 	margin: auto;
+	border: solid 1px black;
 	
 
 
@@ -81,12 +83,7 @@ img
 	padding-bottom: 2.5%;
 
 }
-.droite
-{
-	text-align:left;
-	padding-left: 50px;
-	padding-right: 50px;
-}
+
 .icondroit
 {
 	color: rgba(129,212,250,0.7);
@@ -143,8 +140,6 @@ ul
 li
 {
 	color: rgba(129,212,250,1);
-
-	
 
 }
 ul li span
@@ -219,7 +214,8 @@ ul li span
 	border: solid 1px black;
 	flex: none;
 	border: none;
-	height: 1250px;
+	height: auto;
+	width: auto;
 
 	}
 
@@ -228,7 +224,8 @@ ul li span
 	background-color: white;
 	border: solid 1px black;
 	flex: none;
-	height: 1600px;
+	height: auto;
+	width: auto;
 	border: none;
 
 	}
@@ -256,3 +253,46 @@ ul li span
 	{
 		margin-top: 5%;
 	}
+		.iconloisirs
+	{
+		min-height: 70px;
+	}
+	
+ }	
+
+@media screen and (max-width: 520px)
+
+{
+	ul
+	{
+		display: flex;
+		
+		flex-direction: column;
+	}
+	.bulle
+	{
+	
+		width: auto;
+	}
+	
+	.me
+	{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.entete i
+	{
+		margin-bottom: -27px;
+
+	}
+	.foot
+	{
+		
+		flex-direction: column;
+		align-items: center;
+	}
+	.iconloisirs
+	{
+		min-height: 70px;
+	}
+}
