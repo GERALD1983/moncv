@@ -195,6 +195,7 @@ img
 .texte
 {
 	flex: 2;
+	padding-top: 2%;
 
 }
 .foot
@@ -220,7 +221,7 @@ img
 	body
 	{
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		width: auto;
@@ -251,7 +252,8 @@ img
 	}
 	.propos
 	{
-		height: 300px;
+		height: auto;
+		font-size: 1.3em;
 	}
 	.foot
 	{
@@ -312,6 +314,26 @@ img
 
 	.iconloisirs
 	{
-		min-height: 70px;
+		min-height: 200px;
+	}
+	.CAT
+	{
+		font-size: 2em;
+		height: auto;
+	}
+	#bordureiconD
+	{
+		border: none;
+	 }
+
+	#bordureiconcentre
+	{
+	
+	border: none;
+	padding-top: 2em;
+	}
+	#bordureiconG
+	{
+	border: none;
 	}
 }
