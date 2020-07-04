@@ -250,6 +250,11 @@ img
 	border: none;
 
 	}
+	.contact
+	{
+		font-size: 1.3em;
+		text-align: center;
+	}
 	.propos
 	{
 		height: auto;
@@ -295,10 +300,21 @@ img
 		
 		flex-direction: column;
 	}
+
+	.lignecat
+	{
+
+	border-bottom: 6px solid rgba(129,212,250,0.7);
+	}
 	.bulle
 	{
 	
 		width: auto;
+		font-size: 1.3em;
+	}
+	.texte
+	{
+		font-size: 1.3em;
 	}
 	
 	.me
