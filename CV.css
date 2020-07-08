@@ -272,7 +272,13 @@ img
 	}
 	.footG
 	{
-		padding-left : 8%;
+		
+		margin-left: 0;
+		
+	}
+	.grasmobile
+	{
+		font-weight: bold;
 	}
 	.photo
 	{
