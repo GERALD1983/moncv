@@ -6,7 +6,7 @@ il est le premiet projet concret que j'ai fait dans la formation developpeur web
 
 Celui ci est integration d'apres une maquette fournit qui à été reproduit à la lettre et au graphisme prés.
 
-Celui ci recapitule aussi mon parcours professionnel.
+Celui ci recapitule aussi mon parcours professionnel dans le domaine du web.
 
 Vous pouvez en voir un aperçu sur mon github page ici :
 
